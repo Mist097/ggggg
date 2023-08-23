@@ -1,18 +1,18 @@
 ---
-title: About
-description: My Name is Haroon Akram, I am a recent graduate in the field of Cyber Security. 
+#title: About Me
+header: About Me
+description: Hello World! My name is Haroon. I have a great interest in cyber security & computers in general. 
+date: '2019-02-28'
 aliases:
   - about-us
   - about-hugo
   - contact
+#license: CC BY-NC-ND
+#lastmod: '2020-10-09'
 menu:
     main: 
         weight: -90
         params:
             icon: user
 ---
-This website is used to demonstrate any future projects I venture into, as well as anything I find useful throughout my CyberSecurity journey. 
-You can contact me on [LinkedIn](https://www.linkedin.com/in/haroon-akram/) for any enquiries.
-
-
-
+I shall present my articles and projects on this website as well as anything computer-related (mainly cyber) that i find interesting. 

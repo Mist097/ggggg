@@ -1,8 +1,8 @@
-baseurl: https://www.haroonakram.co.uk/
+baseurl: https://example.com
 languageCode: en-us
 theme: hugo-theme-stack
 paginate: 5
-title: Haroon Akram
+title: CyberAutopsy
 
 languages:
     en:
@@ -10,17 +10,17 @@ languages:
         title: Haroon Akram
         description: Example description
         weight: 1
-    #zh-cn:
-     #   languageName: 中文
-      #  title: 演示站点
-       # description: 演示说明
-        #weight: 2
-    #ar:
-      #  languageName: عربي
-      #  languagedirection: rtl
-      #  title: موقع تجريبي
-      #  description: وصف تجريبي
-      #  weight: 3
+    zh-cn:
+        languageName: 中文
+        title: 演示站点
+        description: 演示说明
+        weight: 2
+    ar:
+        languageName: عربي
+        languagedirection: rtl
+        title: موقع تجريبي
+        description: وصف تجريبي
+        weight: 3
 
 # Change it to your Disqus shortname before using
 disqusShortname: hugo-theme-stack
@@ -45,7 +45,7 @@ params:
         - post
     featuredImageField: image
     rssFullContent: true
-    favicon:  /assets/icons/icons8-fingerprint-16.png
+    favicon:  # e.g.: favicon placed in `static/favicon.ico` of your site folder, then set this field to `/favicon.ico` (`/` is necessary)
 
     footer:
         since: 2020
@@ -56,8 +56,8 @@ params:
         lastUpdated: Jan 02, 2006 15:04 MST
 
     sidebar:
-        emoji: 🎓
-        subtitle: Welcome to my portfolio, have a look around & if you like what you see, contact me :)
+        emoji: 🍥
+        subtitle: Aspiring Penetration Tester
         avatar:
             enabled: true
             local: true
@@ -68,11 +68,11 @@ params:
         toc: true
         readingTime: true
         license:
-            enabled: false
+            enabled: true
             default: Licensed under CC BY-NC-SA 4.0
 
     comments:
-        enabled: false
+        enabled: true
         provider: disqus
 
         disqusjs:
@@ -199,22 +199,15 @@ menu:
     social:
         - identifier: github
           name: GitHub
-          url: https://github.com/CaiJimmy/hugo-theme-stack
+          url: https://github.com/Mist097
           params:
               icon: brand-github
 
-        - identifier: linkedin
-          name: LinkedIn
-          url: https://www.linkedin.com/in/haroon-akram/
+        - identifier: twitter
+          name: Twitter
+          url: https://twitter.com
           params:
-              icon: brand-linkedin
-
-        - identifier: TryHackMe
-          name: TryHackMe
-          url: https://tryhackme.com/p/Mist97
-          params:
-              icon: THM
-       
+              icon: brand-twitter
 
 related:
     includeNewer: true
